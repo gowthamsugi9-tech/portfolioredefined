@@ -20,9 +20,13 @@ justify-content: center;
 /* ─── CSS Custom Properties (Dark Theme) ─── */
 :root {
     /* Core Backgrounds */
-    --bg-primary:     black;
-    --bg-secondary:   rgb(37, 32, 32);
+    /* Core Backgrounds */
+    --bg-primary:     rgba(0, 0, 0, 0.6);
+    --bg-secondary:   rgb(0, 0, 0);
     --bg-tertiary:    #000000;
+    background-image: url(portfolioimaged/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     /* Glass / Surface */
     --glass-bg:       rgba(10, 5, 5, 0.87);
     --glass-border:   rgba(255, 255, 255, 0.08);
